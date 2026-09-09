@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <span className="font-extrabold text-base text-white">Malith<span className="text-cyan-400">.dev</span></span>
+              <span className="font-extrabold text-base text-white">Malith<span className="text-cyan-400">-Gamage</span></span>
               <p className="text-xs text-slate-400">Crafted with React & Tailwind CSS</p>
             </div>
           </div>

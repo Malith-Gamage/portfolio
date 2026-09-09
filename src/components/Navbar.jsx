@@ -60,7 +60,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg tracking-tight text-white group-hover:text-cyan-400 transition-colors">
-                Malith<span className="text-cyan-400">.dev</span>
+                Malith<span className="text-cyan-400">-Gamage</span>
               </span>
               <span className="text-[10px] font-mono text-slate-400 -mt-1 tracking-wider uppercase">Full Stack Architect</span>
             </div>
