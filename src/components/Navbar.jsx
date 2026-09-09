@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, FileText, Code2, Sparkles } from 'lucide-react';
+import resumePdf from '../assets/resume.pdf';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -89,7 +90,7 @@ export default function Navbar() {
           {/* Action Buttons */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="./resume.pdf"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-200 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/80 hover:border-slate-600 transition-all shadow-sm"
@@ -142,7 +143,7 @@ export default function Navbar() {
 
           <div className="pt-2 border-t border-slate-800 flex flex-col gap-2.5">
             <a
-              href="./resume.pdf"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-medium text-slate-200 bg-slate-800 border border-slate-700"
