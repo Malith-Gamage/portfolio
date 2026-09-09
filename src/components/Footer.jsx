@@ -25,7 +25,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Nav Quick Links */}
+          {/* Nav Quick Links & Socials */}
           <div className="flex flex-wrap items-center gap-6 text-xs text-slate-400 font-medium">
             <a href="#hero" className="hover:text-white transition-colors">Home</a>
             <a href="#skills" className="hover:text-white transition-colors">Skills</a>
@@ -34,15 +34,35 @@ export default function Footer() {
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Resume</a>
           </div>
 
-          {/* Back To Top Button */}
-          <button
-            onClick={scrollToTop}
-            className="p-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition-all group"
-            aria-label="Back to top"
-            id="back-to-top-btn"
-          >
-            <ArrowUp className="w-4 h-4 group-hover:-translate-y-1 transition-transform" />
-          </button>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://github.com/Malith-Gamage"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition-all"
+              aria-label="GitHub Profile"
+            >
+              <Github className="w-4 h-4" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/malith-gamage-715b7b280/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-cyan-400 hover:border-slate-700 transition-all"
+              aria-label="LinkedIn Profile"
+            >
+              <Linkedin className="w-4 h-4" />
+            </a>
+            {/* Back To Top Button */}
+            <button
+              onClick={scrollToTop}
+              className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition-all group"
+              aria-label="Back to top"
+              id="back-to-top-btn"
+            >
+              <ArrowUp className="w-4 h-4 group-hover:-translate-y-1 transition-transform" />
+            </button>
+          </div>
         </div>
 
         {/* Copyright & Subtext */}
