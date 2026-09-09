@@ -1,6 +1,5 @@
 import skillForgeImg from '../assets/projects/skillforge.jpg';
 import byteStoreImg from '../assets/projects/byte-store.jpg';
-import project3Img from '../assets/projects/project-3.png';
 
 export const projects = [
   {
@@ -34,22 +33,6 @@ export const projects = [
       'Animated circular mobile hamburger toggle and slide-out navigation menu',
       'Interactive hardware specifications modal popup with zero page reloads',
       'Integrated Swiper.js review carousel and accessible newsletter subscription UI'
-    ]
-  },
-  {
-    id: 'devops-metrics-platform',
-    title: 'CloudPulse - DevOps Monitor',
-    description: 'Cloud infrastructure observability dashboard featuring live server health indicators, latency telemetry, and instant alert notification triggers.',
-    category: 'Full Stack',
-    featured: true,
-    image: project3Img,
-    tags: ['React', 'TypeScript', 'Node.js', 'Docker', 'WebSockets', 'Tailwind'],
-    liveUrl: 'https://example.com/cloudpulse',
-    githubUrl: 'https://github.com/alexdev/cloudpulse',
-    highlights: [
-      'Real-time WebSocket telemetry data streams',
-      'Interactive multi-region server latency map',
-      'Automated Slack & Webhook incident reporting'
     ]
   }
 ];
