@@ -31,7 +31,7 @@ export default function Footer() {
             <a href="#skills" className="hover:text-white transition-colors">Skills</a>
             <a href="#projects" className="hover:text-white transition-colors">Projects</a>
             <a href="#contact" className="hover:text-white transition-colors">Contact</a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Resume</a>
+            <a href="./resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Resume</a>
           </div>
 
           <div className="flex items-center gap-3">
