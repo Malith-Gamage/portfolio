@@ -87,7 +87,7 @@ export default function Hero() {
             <div className="flex items-center gap-4 pt-2 text-slate-400">
               <span className="text-xs uppercase tracking-wider font-mono text-slate-500">Connect:</span>
               <a
-                href="https://github.com"
+                href="https://github.com/Malith-Gamage"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-slate-900/80 border border-slate-800 hover:border-indigo-500/50 text-slate-300 hover:text-cyan-400 transition-all"
@@ -96,7 +96,7 @@ export default function Hero() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/malith-gamage-715b7b280/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-slate-900/80 border border-slate-800 hover:border-indigo-500/50 text-slate-300 hover:text-cyan-400 transition-all"
