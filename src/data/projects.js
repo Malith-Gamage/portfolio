@@ -1,5 +1,6 @@
 import skillForgeImg from '../assets/projects/skillforge.jpg';
 import byteStoreImg from '../assets/projects/byte-store.jpg';
+import hostelSystemImg from '../assets/projects/hostel-system.jpg';
 
 export const projects = [
   {
@@ -33,6 +34,22 @@ export const projects = [
       'Animated circular mobile hamburger toggle and slide-out navigation menu',
       'Interactive hardware specifications modal popup with zero page reloads',
       'Integrated Swiper.js review carousel and accessible newsletter subscription UI'
+    ]
+  },
+  {
+    id: 'hostel-management-system',
+    title: 'Hostel Management System',
+    description: 'A secure, serverless hostel management system designed to eliminate manual administrative paperwork, automate room allocation, and streamline student services in real time.',
+    category: 'Full Stack',
+    featured: true,
+    image: hostelSystemImg,
+    tags: ['Next.js 15', 'React 19', 'TypeScript', 'Tailwind CSS', 'AWS DynamoDB', 'Framer Motion'],
+    liveUrl: 'https://susl-hostel.spacesolutionsinternational.com',
+    githubUrl: 'https://github.com/KalanaYapa/Hostel-System',
+    highlights: [
+      'Full-stack student & admin dashboards with automated fee tracking and maintenance workflows',
+      'Serverless AWS DynamoDB architecture with single-table design and on-demand scaling',
+      'End-to-end security using email OTP verification, JWT authentication, and strict rate limiting'
     ]
   }
 ];
