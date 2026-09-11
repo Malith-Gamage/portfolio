@@ -4,10 +4,10 @@ export const skillCategories = [
     name: 'Frontend & Web',
     description: 'Building responsive, interactive user interfaces with modern web standards and frameworks.',
     skills: [
-      { name: 'HTML', level: 95, icon: 'Layout', tag: 'Web Foundation' },
-      { name: 'JavaScript', level: 92, icon: 'FileCode', tag: 'Core Language' },
-      { name: 'CSS', level: 90, icon: 'Palette', tag: 'Styling & Layout' },
-      { name: 'React', level: 94, icon: 'Code2', tag: 'Web Framework' }
+      { name: 'HTML', icon: 'Layout', tag: 'Web Foundation' },
+      { name: 'JavaScript', icon: 'FileCode', tag: 'Core Language' },
+      { name: 'CSS', icon: 'Palette', tag: 'Styling & Layout' },
+      { name: 'React', icon: 'Code2', tag: 'Web Framework' }
     ]
   },
   {
@@ -15,9 +15,9 @@ export const skillCategories = [
     name: 'Backend & Mobile',
     description: 'Developing cross-platform mobile apps, backend systems, and relational databases.',
     skills: [
-      { name: 'React Native', level: 90, icon: 'Smartphone', tag: 'Mobile Development' },
-      { name: 'Java', level: 88, icon: 'Cpu', tag: 'Backend & Enterprise' },
-      { name: 'MySQL', level: 86, icon: 'Database', tag: 'Relational Database' }
+      { name: 'React Native', icon: 'Smartphone', tag: 'Mobile Development' },
+      { name: 'Java', icon: 'Cpu', tag: 'Backend & Enterprise' },
+      { name: 'MySQL', icon: 'Database', tag: 'Relational Database' }
     ]
   },
   {
@@ -25,7 +25,7 @@ export const skillCategories = [
     name: 'Leadership & Delivery',
     description: 'Managing software projects, coordinating agile teams, and ensuring timely milestone delivery.',
     skills: [
-      { name: 'Project Management', level: 92, icon: 'Kanban', tag: 'Agile & Leadership' }
+      { name: 'Project Management', icon: 'Kanban', tag: 'Agile & Leadership' }
     ]
   }
 ];
