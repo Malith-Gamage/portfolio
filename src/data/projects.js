@@ -1,8 +1,26 @@
+import bestRouteImg from '../assets/projects/bestroute.jpg';
 import skillForgeImg from '../assets/projects/skillforge.jpg';
 import byteStoreImg from '../assets/projects/byte-store.jpg';
 import hostelSystemImg from '../assets/projects/hostel-system.jpg';
 
 export const projects = [
+  {
+    id: 'bestroute-journey-planner',
+    title: 'BestRoute – Intelligent Multimodal Journey Planner',
+    description: 'An intelligent transportation platform designed to simplify public transportation by combining buses, trains, taxis, three-wheelers, and walking into optimized end-to-end journeys. Helps passengers find suitable routes based on travel time, cost, convenience, and personal preferences.',
+    category: 'Mobile/Cloud',
+    featured: true,
+    image: bestRouteImg,
+    tags: ['React Native', 'React', 'Node.js', 'Express.js', 'MongoDB', 'Leaflet', 'JWT', 'REST APIs'],
+    liveUrl: 'https://github.com/codesplash26-hackathon/codecrushers',
+    githubUrl: 'https://github.com/codesplash26-hackathon/codecrushers',
+    highlights: [
+      'Personalized Route Optimization: Ranks journeys by travel time, cost, walking, transfers & reliability',
+      'Connection-Risk Detection: Evaluates transfer times to prevent missed connections',
+      'Dynamic Re-routing: Recommends smart alternatives for delays & transit disruptions',
+      'Unified Journey Comparison: Consolidated view of duration, total cost, waiting time & transfers'
+    ]
+  },
   {
     id: 'skillforge-learning-platform',
     title: 'SkillForge – AI-Powered Gamified Learning Platform',
